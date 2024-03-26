@@ -9,7 +9,7 @@ class VoiceAssistantGUI:
         self.root.title("JarvisUI")
 
         # Load and display image
-        image = Image.open("C:\Desktop\The_jarvis\prajaktabhiungade\image.jpg")  # Change the path to your image
+        image = Image.open("C:\Desktop\The_jarvis\sanikamane\jarvis_GUI.jpg")  # Change the path to your image
         photo = ImageTk.PhotoImage(image)
         image_label = tk.Label(self.root, image=photo)
         image_label.image = photo

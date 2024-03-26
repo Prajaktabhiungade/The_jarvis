@@ -2,7 +2,7 @@ import tkinter as tk
 from PIL import Image, ImageTk
 import pyttsx3
 
-class VoiceAssistantGUI:
+class GUI:
     def __init__(self):
         self.engine = pyttsx3.init()
         self.root = tk.Tk()
@@ -18,7 +18,7 @@ class VoiceAssistantGUI:
         self.root.mainloop()
 
 if __name__ == "__main__":
-    app = VoiceAssistantGUI()
+    app = GUI()
 
 
 
